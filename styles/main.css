@@ -1,0 +1,139 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    background-color: #3e3e3e;
+    color: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 30px auto;
+}
+
+.upcoming {
+    & p {
+        margin: 1em;
+        text-align: center;
+    }
+
+    width: 30vw;
+    height: 30vh;
+
+}
+
+.standings {
+    & ol {
+        margin: 1em;
+        text-align: center;
+        list-style-position: inside;
+
+        & li {
+            margin: 1em;
+            text-align: center;
+        }
+    }
+
+    width: 70vw;
+    height: 70vh;
+
+
+
+}
+
+
+
+
+.navbar {
+    background-color: #1b1b1b;
+
+    & a,
+    search {
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+        margin-top: 0;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        color: white;
+    }
+
+    & ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+
+    & li,
+    search {
+        flex-basis: 20%;
+        text-align: center;
+    }
+
+    >li:first-child a {
+        margin-left: 0;
+    }
+
+    >li:last-child a {
+        margin-right: 0;
+    }
+}
+
+#mySearch,
+#email,
+#password {
+    border-radius: 1em;
+    color: white;
+    background-color: #3e3e3e;
+
+}
+
+section.login,
+section.register {
+    & div {
+        margin: 1em;
+    }
+
+    & a {
+        color: white;
+        text-align: center;
+        display: block;
+        margin: 1em auto;
+    }
+}
+
+section.login {
+    width: 50vw;
+    height: 35vh;
+}
+
+section.register {
+    width: 50vw;
+    height: 40vh;
+}
+
+button {
+    border-radius: 1em;
+    color: white;
+    background-color: #044159;
+    display: block;
+    width: 100px;
+    height: 25px;
+    margin: 0 auto;
+    font-size: 18px;
+}
